@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | Up & Alta</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0d1117;
+            --card-bg: #161b22;
+            --text-main: #c9d1d9;
+            --text-dim: #8b949e;
+            --accent: #58a6ff;
+            --border: #30363d;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(13, 17, 23, 0.8);
+            backdrop-filter: blur(10px);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo {
+            font-weight: 800;
+            font-size: 1.2rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        nav a {
+            color: var(--text-dim);
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 0.9rem;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--text-main);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .hero-section {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 10px;
+        }
+
+        .policy-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        h2 {
+            color: var(--accent);
+            font-size: 1.2rem;
+            margin-top: 30px;
+            border-left: 3px solid var(--accent);
+            padding-left: 15px;
+        }
+
+        p, ul {
+            font-size: 1rem;
+            color: var(--text-main);
+        }
+
+        .contact-box {
+            background: rgba(88, 166, 255, 0.1);
+            border: 1px dashed var(--accent);
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .email-link {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .footer-simple {
+            text-align: center;
+            padding: 40px;
+            color: var(--text-dim);
+            font-size: 0.8rem;
+            border-top: 1px solid var(--border);
+            margin-top: 60px;
+        }
+
+        .tag {
+            display: inline-block;
+            background: var(--border);
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <a href="index.html" class="logo">Up & Alta</a>
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="#">Plus</a>
+    </nav>
+</header>
+
+<div class="container">
+    <div class="hero-section">
+        <h1>Confidentiality Rules</h1>
+        <p style="color: var(--text-dim);">Last Updated: February 2026</p>
+    </div>
+
+    <div class="policy-card">
+        <p><strong>Up & Alta</strong> (“we,” “us,” “our,” or “Company”) knows that you care about how your personal information is used and shared, and we take your privacy seriously.</p>
+
+        <h2>Information Collection And Use</h2>
+        <p>Our primary goals in collecting and using information are to provide and improve the Service, to administer and assist you in administering your Account on the Service, and to provide you with a better experience with the Service.</p>
+        
+        <p>We may collect Personal and Non-Personal information such as:</p>
+        <ul>
+            <li><span class="tag">Identity</span> First and last name</li>
+            <li><span class="tag">Contact</span> Email address</li>
+            <li><span class="tag">Support</span> Your messages, chat logs, and support tickets</li>
+            <li><span class="tag">Technical</span> Cookies and Usage Data</li>
+        </ul>
+
+        <h2>Advertising and Analysis</h2>
+        <p>We use third-party Service Providers to monitor and analyze the use of our Service and to show advertisements to help support and maintain our operations.</p>
+        
+        <p><strong>AdMob by Google:</strong> Provided by Google Inc. You can opt-out by following instructions at <a href="https://support.google.com/ads/answer/2662922?hl=en" class="email-link">Google Ads Settings</a>.</p>
+        
+        <p><strong>Unity Ads:</strong> Provided by Unity Technologies. View their policy at <a href="https://unity3d.com/legal/privacy-policy" class="email-link">Unity Privacy</a>.</p>
+
+        <h2>Children's Privacy</h2>
+        <p>We comply with the <strong>Children’s Online Privacy Protection Act</strong>. We do not knowingly collect personal information on children under the age of 13. If we become aware that a Child has provided us with Personal Data, we take immediate steps to remove that information.</p>
+
+        <h2>Definitions</h2>
+        <p><strong>Service:</strong> Means websites and mobile applications operated by Up & Alta.</p>
+        <p><strong>Cookies:</strong> Small pieces of data stored on your device (computer or mobile device).</p>
+
+        <div class="contact-box">
+            <p>Questions about our service or privacy policy?</p>
+            <a href="mailto:up.alta.store@gmail.com" class="email-link">up.alta.store@gmail.com</a>
+        </div>
+    </div>
+</div>
+
+<footer class="footer-simple">
+    &copy; 2026 Up & Alta. All rights reserved. <br>
+    Hosted via GitHub Pages.
+</footer>
+
+</body>
+</html>
