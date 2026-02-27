@@ -6,7 +6,7 @@
     <title>Privacy Policy | 隐私政策 | Up & Alta</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Noto+Sans+SC:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Noto+Sans+SC:wght@400;700&display=swap" rel="stylesheet">
     <style>
         :root {
             --bg-color: #0d1117;
@@ -32,48 +32,16 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background: rgba(13, 17, 23, 0.8);
+            background: rgba(13, 17, 23, 0.9);
             backdrop-filter: blur(10px);
             position: sticky;
             top: 0;
             z-index: 100;
         }
 
-        .logo {
-            font-weight: 800;
-            font-size: 1.2rem;
-            color: var(--accent);
-            text-decoration: none;
-        }
+        .logo { font-weight: 800; font-size: 1.2rem; color: var(--accent); text-decoration: none; }
 
-        nav a {
-            color: var(--text-dim);
-            text-decoration: none;
-            margin-left: 20px;
-            font-size: 0.9rem;
-            transition: color 0.3s;
-        }
-
-        nav a:hover {
-            color: var(--text-main);
-        }
-
-        .container {
-            max-width: 850px;
-            margin: 40px auto;
-            padding: 0 20px;
-        }
-
-        .hero-section {
-            text-align: center;
-            margin-bottom: 40px;
-        }
-
-        h1 {
-            font-size: 2rem;
-            font-weight: 800;
-            margin-bottom: 5px;
-        }
+        .container { max-width: 850px; margin: 40px auto; padding: 0 20px; }
 
         .policy-card {
             background: var(--card-bg);
@@ -81,6 +49,20 @@
             border-radius: 12px;
             padding: 40px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        .hero-section { text-align: center; margin-bottom: 30px; border-bottom: 1px solid var(--border); padding-bottom: 20px; }
+        h1 { font-size: 1.8rem; margin-bottom: 5px; color: #ffffff; }
+        .zh-title { font-size: 1.4rem; color: var(--text-dim); margin-bottom: 15px; display: block; }
+
+        .dev-badge {
+            display: inline-block;
+            background: rgba(88, 166, 255, 0.1);
+            border: 1px solid var(--accent);
+            padding: 8px 15px;
+            border-radius: 5px;
+            font-size: 0.9rem;
+            margin-bottom: 20px;
         }
 
         h2 {
@@ -95,47 +77,29 @@
         }
 
         .lang-zh {
+            display: block;
             color: var(--text-dim);
             font-size: 0.9rem;
-            display: block;
             margin-top: 4px;
             font-weight: 400;
         }
 
-        p, ul {
-            font-size: 0.95rem;
-            color: var(--text-main);
-            margin-bottom: 15px;
-        }
-
-        ul {
-            padding-left: 20px;
-        }
-
-        li {
-            margin-bottom: 12px;
-        }
+        p, ul { font-size: 0.95rem; color: var(--text-main); margin-bottom: 15px; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
 
         .contact-section {
             background: rgba(88, 166, 255, 0.05);
-            border: 1px solid var(--border);
+            border: 1px dashed var(--border);
             padding: 25px;
             border-radius: 8px;
             margin-top: 30px;
         }
 
-        .email-link {
-            color: var(--accent);
-            text-decoration: none;
-            font-weight: 600;
-            word-break: break-all;
-        }
+        .email-link { color: var(--accent); text-decoration: none; font-weight: 600; word-break: break-all; }
+        .email-link:hover { text-decoration: underline; }
 
-        .email-link:hover {
-            text-decoration: underline;
-        }
-
-        .footer-simple {
+        footer {
             text-align: center;
             padding: 40px;
             color: var(--text-dim);
@@ -149,23 +113,22 @@
 
 <header>
     <a href="index.html" class="logo">Up & Alta</a>
-    <nav>
-        <a href="index.html">Accueil / 首页</a>
-        <a href="#">Plus / 更多</a>
-    </nav>
 </header>
 
 <div class="container">
-    <div class="hero-section">
-        <h1>Our Confidentiality rules</h1>
-        <h1><span class="lang-zh" style="font-size: 1.8rem; color: var(--text-main);">我们的隐私规则</span></h1>
-        <p style="color: var(--text-dim);">Effective Date / 生效日期: February 2026</p>
-    </div>
-
     <div class="policy-card">
+        <div class="hero-section">
+            <h1>Privacy Policy</h1>
+            <span class="zh-title">隐私政策</span>
+            <div class="dev-badge">
+                <strong>Developer / 开发者:</strong> Rachid Ben Lamlih (Up & Alta)
+            </div>
+            <p style="color: var(--text-dim); font-size: 0.85rem;">Effective Date / 生效日期: February 2026</p>
+        </div>
+
         <p>
-            <strong>Up & Alta</strong> (“we,” “us,” “our,” or “Company”) knows that you care about how your personal information is used and shared, and we take your privacy seriously.
-            <span class="lang-zh"><strong>Up & Alta</strong>（“我们”、“我们的”或“本公司”）深知您关注您的个人信息如何被使用和共享，我们高度重视您的隐私。</span>
+            <strong>Rachid Ben Lamlih (Up & Alta)</strong> (“we,” “us,” “our,” or “Company”) knows that you care about how your personal information is used and shared, and we take your privacy seriously.
+            <span class="lang-zh"><strong>Rachid Ben Lamlih (Up & Alta)</strong>（“我们”、“我们的”或“本公司”）深知您关注您的个人信息如何被使用和共享，我们高度重视您的隐私。</span>
         </p>
 
         <h2>Information Collection And Use / 信息收集与使用</h2>
@@ -191,13 +154,13 @@
         </p>
         
         <p>
-            <strong>AdMob by Google</strong> is provided by Google Inc. You can opt-out from AdMob by Google service by following the instructions described by Google: <br>
-            <a href="https://support.google.com/ads/answer/2662922?hl=en" class="email-link">https://support.google.com/ads/answer/2662922?hl=en</a>
+            <strong>AdMob by Google</strong> is provided by Google Inc. You can opt-out from AdMob by Google service by following the instructions: <br>
+            <a href="https://support.google.com/ads/answer/2662922?hl=zh" class="email-link">https://support.google.com/ads/answer/2662922?hl=zh</a>
             <span class="lang-zh"><strong>AdMob by Google</strong> 由 Google Inc. 提供。您可以按照 Google 说明退订 AdMob 服务。</span>
         </p>
         
         <p>
-            <strong>Unity Ads</strong> is provided by Unity Technologies. If you'd like to learn more about Unity Ads, please visit the Privacy Policy page of Unity Technologies: <br>
+            <strong>Unity Ads</strong> is provided by Unity Technologies. For more info, please visit their Privacy Policy: <br>
             <a href="https://unity3d.com/legal/privacy-policy" class="email-link">https://unity3d.com/legal/privacy-policy</a>
             <span class="lang-zh"><strong>Unity Ads</strong> 由 Unity Technologies 提供。如需了解详情，请访问其隐私政策页面。</span>
         </p>
@@ -208,14 +171,14 @@
             <span class="lang-zh">我们遵守《儿童在线隐私保护法》。我们不会故意收集 13 岁以下儿童的个人信息。</span>
         </p>
         <p>
-            If you are aware (we become aware) that a Child has provided us with Personal Data, please contact us (we take steps to remove that information): <br>
+            If a Child has provided us with Personal Data, please contact us at: <br>
             <a href="mailto:up.alta.store@gmail.com" class="email-link">up.alta.store@gmail.com</a>
-            <span class="lang-zh">如果您发现（或我们发现）儿童向我们提供了个人数据，请联系我们（我们将采取措施删除此类信息）。</span>
+            <span class="lang-zh">如果您发现儿童向我们提供了个人数据，请联系我们：up.alta.store@gmail.com</span>
         </p>
 
         <h2>Definitions / 定义</h2>
-        <p><strong>Service :</strong> Means websites and mobile applications operated by Up & Alta. <span class="lang-zh"><strong>服务：</strong> 指由 Up & Alta 运营的网站和移动应用程序。</span></p>
-        <p><strong>Cookies :</strong> Are small pieces of data stored on your device (computer or mobile device). <span class="lang-zh"><strong>Cookies：</strong> 存储在您设备（电脑或移动设备）上的小型数据文件。</span></p>
+        <p><strong>Service:</strong> Means websites and mobile applications operated by Rachid Ben Lamlih (Up & Alta). <br><span class="lang-zh"><strong>服务：</strong> 指由 Rachid Ben Lamlih (Up & Alta) 运营的网站和移动应用程序。</span></p>
+        <p><strong>Cookies:</strong> Are small pieces of data stored on your device. <br><span class="lang-zh"><strong>Cookies：</strong> 存储在您设备上的小型数据文件。</span></p>
 
         <div class="contact-section">
             <p><strong>Contact Us / 联系我们</strong></p>
@@ -226,8 +189,8 @@
     </div>
 </div>
 
-<footer class="footer-simple">
-    &copy; 2026 Up & Alta. All rights reserved. 保留所有权利。<br>
+<footer>
+    &copy; 2026 Rachid Ben Lamlih (Up & Alta). All rights reserved. 保留所有权利。<br>
     Built for Professional Content Delivery.
 </footer>
 
